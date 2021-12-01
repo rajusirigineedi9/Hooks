@@ -11,3 +11,4 @@ const name=useContext(Context)
 }
 
 export default ChildCompContext
+ 

@@ -1,17 +1,15 @@
 
-import './App.css';
+import React from 'react'
+import CheckBox from './Checkbox/CheckBox';
 import State from './ClassComp/State';
-import UseEffect from './FunctionalComp/UseEffect';
+import Data from './HOC/Data';
 
-import UseState from './FunctionalComp/UseState';
-import SampleCSS from './CSS/SampleCSS';
-import UseContext from './UseContext/UseContext';
-import UseReducer from './UseReducer';
+
 
 function App() {
   return (
     <div>
-      <SampleCSS/>
+      <CheckBox/>
     </div>
   );
 }

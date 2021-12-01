@@ -7,7 +7,8 @@ function UseContext() {
     const [name,setName] = useState("rajjj")
     return (
         <div>
-            <Context.Provider value={name}> <ChildCompContext/>
+            <Context.Provider value={name}>
+                 <ChildCompContext/>
             </Context.Provider>
            
         </div>
